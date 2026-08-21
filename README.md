@@ -62,13 +62,13 @@ WHERE
 - Orphan Records Flagged: 0
 - Integrity Score: 100.0%
 
+```text
 [2026-08-19 05:04:12 UTC] [INFO] Connecting to Production SaaS Replica DB...
 [2026-08-19 05:04:12 UTC] [INFO] Executing Relational Key Join Query...
 [2026-08-19 05:04:12 UTC] [INFO] Join Predicate: (Customers.customer_id = Orders.customer_id)
 [2026-08-19 05:04:12 UTC] [SUCCESS] Query executed in 0.0418 seconds.
 [2026-08-19 05:04:12 UTC] [OUTPUT] 248,910 valid relational pairs retrieved. 0 orphan records.
 
-```column
 +------------------------+-------------------+-----------------+
 | Customer Name          | Order ID          | Key Match Status|
 +------------------------+-------------------+-----------------+
@@ -82,17 +82,17 @@ WHERE
 ##  Repository Structure & Directory Layout
 ```text
 sql-saas-billing-relational-keys-engine/
-├── README.md                           # Enterprise Portfolio Landing Page
-├── README.html                         # Source HTML Master Template
-├── LICENSE                             # MIT Open Source License
+├── README.md                           
+├── README.html                         
+├── LICENSE                             
 ├── src/
-│   └── billing_relational_join.sql     # Production SQL Extraction Script
+│   └── billing_relational_join.sql     
 ├── docs/
-│   ├── README.pdf                      # Executive Technical Case Study
-│   └── README-PLAYBOOK.pdf             # Client Delivery & Upwork Automation Playbook
+│   ├── README.pdf                     
+│   └── README-PLAYBOOK.pdf             
 ├── data/
-│   ├── customers_sample.csv            # Sample Customer Entity Dataset
-│   └── orders_sample.csv               # Sample Transactional Order Dataset
+│   ├── customers_sample.csv          
+│   └── orders_sample.csv              
 └── benchmarks/
     └── execution_logs.txt              
 ```
