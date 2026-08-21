@@ -1,0 +1,9 @@
+customer_id,name,email,subscription_tier,billing_cycle,account_status,created_at
+CUST-1001,TechCorp Solutions,billing@techcorp.io,ENTERPRISE,ANNUAL,ACTIVE,2025-01-15 08:30:00
+CUST-1002,Apex Logistics Global,finance@apexlogistics.com,ENTERPRISE,ANNUAL,ACTIVE,2025-02-10 11:15:00
+CUST-1003,CloudScale Health Inc,ap@cloudscalehealth.com,GROWTH,MONTHLY,ACTIVE,2025-03-01 09:45:00
+CUST-1004,FinTech Growth Partners,ops@fintechgrowth.co,GROWTH,ANNUAL,ACTIVE,2025-03-22 14:20:00
+CUST-1005,Nexus Data Dynamics,accounts@nexusdata.ai,STARTER,MONTHLY,ACTIVE,2025-04-05 10:00:00
+CUST-1006,Vanguard Retail Labs,admin@vanguardretail.ng,GROWTH,MONTHLY,ACTIVE,2025-05-18 16:30:00
+CUST-1007,Hyperion CyberSec,billing@hyperionsec.com,ENTERPRISE,ANNUAL,ACTIVE,2025-06-12 12:00:00
+CUST-1008,Starlight Media Group,finance@starlightmedia.io,STARTER,MONTHLY,SUSPENDED,2025-07-01 07:15:00
